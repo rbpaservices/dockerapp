@@ -7,5 +7,6 @@ services:
     build: .
 
   redis:
-    file: common.yml
-    service: redis
+    extends:
+      file: common.yml
+      service: redis
