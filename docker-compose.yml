@@ -8,4 +8,4 @@ services:
 
   redis:
     file: common.yml
-    service:redis
+    service: redis
